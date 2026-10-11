@@ -108,6 +108,34 @@
 .process-grid h3 { margin: 32px 0 8px; font-family: "Space Grotesk", sans-serif; font-size: 22px; }
 .process-grid p { margin: 0; color: var(--muted); font-size: 13px; }
 
+.service-detail-lede {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 30px;
+  align-items: center;
+  max-width: 760px;
+  margin-bottom: 55px;
+}
+
+.service-detail-lede .service-icon {
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  background: var(--rose);
+  color: var(--red);
+  font-size: 28px;
+}
+
+.service-detail-lede p { margin: 0; font-size: 20px; color: var(--muted); }
+.service-detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.service-detail-grid article { min-height: 230px; padding: 25px; background: #fff; border: 1px solid var(--line); }
+.service-detail-grid article > span { color: var(--red); font-size: 11px; font-weight: 700; }
+.service-detail-grid h3 { margin: 35px 0 10px; font-family: "Space Grotesk", sans-serif; font-size: 22px; }
+.service-detail-grid p { margin: 0; color: var(--muted); font-size: 13px; }
+.service-detail-next { margin-top: 55px; padding: 35px; background: var(--ink); color: #fff; }
+.service-detail-next h2 { margin: 0 0 25px; font-family: "Space Grotesk", sans-serif; font-size: clamp(26px, 4vw, 42px); }
+
 @media (max-width: 800px) {
   .footer-main { grid-template-columns: 1fr 1fr; gap: 35px 24px; }
   .footer-brand { grid-column: 1 / -1; }
@@ -116,6 +144,7 @@
   .contact-layout { padding-left: 20px; padding-right: 20px; }
   .home-story { grid-template-columns: 1fr; gap: 35px; }
   .process-grid { grid-template-columns: repeat(2, 1fr); }
+  .service-detail-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 560px) {
@@ -133,4 +162,7 @@
   .story-panel { padding: 22px; }
   .process-grid { grid-template-columns: 1fr; margin-top: 30px; }
   .process-grid article { min-height: auto; }
+  .service-detail-lede { grid-template-columns: 1fr; gap: 18px; }
+  .service-detail-lede p { font-size: 17px; }
+  .service-detail-next { padding: 24px; }
 }
