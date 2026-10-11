@@ -24,8 +24,8 @@ export const siteModel = {
   ],
   stack: ['TypeScript', 'React', 'Node.js', 'Python', 'PostgreSQL', 'AWS', 'Terraform', 'OpenAI'],
   team: [
-    { name: 'Maya Chen', role: 'Chief Technology Officer', initials: 'MC' },
-    { name: 'Elliot Brooks', role: 'Principal Architect', initials: 'EB' },
-    { name: 'Nia Okafor', role: 'Design Director', initials: 'NO' }
+    { name: 'Che Neba Metuge', role: 'Full-stack engineer', initials: 'CN', focus: 'Product engineering', bio: 'Builds dependable web products from the first prototype through production.' },
+    { name: 'A. Angel Tawe', role: 'Quality assurance & architecture officer', initials: 'AT', focus: 'Quality and systems', bio: 'Connects thoughtful quality practices with architecture that teams can confidently grow.' },
+    { name: 'Neba Okafor', role: 'Design director', initials: 'NO', focus: 'Experience design', bio: 'Turns complex workflows into clear, useful experiences people enjoy using.' }
   ]
 };
